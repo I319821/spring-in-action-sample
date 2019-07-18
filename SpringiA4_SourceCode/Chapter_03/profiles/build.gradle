@@ -21,6 +21,6 @@ dependencies {
     testCompile "com.github.stefanbirkner:system-rules:${systemRulesVersion}"
 }
 
-task wrapper(type: Wrapper) {
+task wrapperProfiles(type: Wrapper) {
     gradleVersion = '1.11'
 }
